@@ -1,0 +1,26 @@
+/* src/styles.css */
+.home-container {
+    background-color: #D6451B;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 16px;
+  }
+  
+  .text-content {
+    max-width: 800px;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.4;
+  }
+  
+  .highlight-yellow {
+    color: #FBBF24; /* Tailwind's yellow-400 */
+  }
+  
+  .highlight-black {
+    color: #000;
+  }
+  

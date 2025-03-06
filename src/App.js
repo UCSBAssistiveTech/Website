@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+const HomePage = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="home-container">
+      <div className="text-content">
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          we design <br /> and prototype <br />
+          <span className="highlight-yellow">electronics</span> & <br />
+          <span className="highlight-black">software</span> to <br />
+          assist people <br /> with disabilities.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
     </div>
   );
-}
+};
 
-export default App;
+export default HomePage;
